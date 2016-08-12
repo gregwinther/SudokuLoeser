@@ -190,11 +190,6 @@ public class GUI extends Application {
 					spillet.hentBrett().hentKolonnerBoks(),
 					spillet.hentBrett().hentRaderBoks());
 
-				System.out.println("sisteKol: " + sisteKol);
-				System.out.println("sisteRad: " + sisteRad);
-				System.out.println(spillet.hentBrett().hentKolonnerBoks());
-				System.out.println(spillet.hentBrett().hentKolonnerBoks());
-
 				oppfylt = oppfylt + spillet.hentBrett().hentKolonnerBoks();
 				sisteKol = sisteKol + spillet.hentBrett().hentKolonnerBoks();
 
